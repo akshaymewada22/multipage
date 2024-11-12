@@ -1,0 +1,256 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar nav {
+  margin-left: 10px;
+  color: coral;
+}
+#navbar nav p {
+  font-size: x-large;
+  margin-top: 10px;
+}
+#navbar nav ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-left: 200px;
+  color: black;
+}
+#navbar nav ul li {
+  list-style: none;
+}
+#navbar nav ul li a {
+  text-decoration: none;
+}
+
+li:hover {
+  color: coral;
+}
+
+#maintext {
+  background-image: url(03.jpg);
+  width: 1250px;
+  height: 800px;
+  margin-top: 15px;
+}
+
+h1 {
+  padding-top: 200px;
+  font-size: xx-large;
+  padding-left: 40px;
+  color: coral;
+}
+
+.talk {
+  padding-top: 100px;
+  margin-left: 50px;
+  font-size: xx-large;
+}
+
+.is {
+  margin-left: 50px;
+  font-size: x-large;
+}
+
+#end {
+  background-color: black;
+  height: 500px;
+  color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.div1 {
+  font-size: x-large;
+  margin-left: 50px;
+  margin-top: 150px;
+}
+.div1 h2 {
+  color: aqua;
+}
+.div1 h2:hover {
+  color: coral;
+}
+
+#mainbox {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 50px;
+  gap: 100px;
+}
+#mainbox .box1 {
+  border: 1px solid rgb(0, 0, 0);
+  width: 800px;
+  height: 350px;
+  background-image: url(13.jpg);
+}
+#mainbox .box {
+  padding-left: 150px;
+  font-weight: 200px;
+}
+
+#team {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 180px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+#team .team1 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 300px;
+  height: 150px;
+}
+#team .team1 b {
+  padding-left: 150px;
+  font-size: large;
+}
+#team .team2 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 300px;
+  height: 150px;
+}
+#team .team3 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 300px;
+  height: 150px;
+}
+
+#product {
+  background-color: rgba(0, 255, 255, 0.285);
+  width: 1250px;
+  height: 300px;
+  padding-top: 70px;
+  font-size: 60px;
+  margin-top: 40px;
+}
+#product p {
+  margin-left: 80px;
+}
+#product b {
+  color: coral;
+}
+
+#goods {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 60px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+#goods .pro1 {
+  border: 1px solid rgb(0, 0, 0);
+  width: 300px;
+  height: 400px;
+}
+#goods .pro2 {
+  border: 1px solid rgb(0, 0, 0);
+  width: 300px;
+  height: 400px;
+}
+#goods .pro3 {
+  border: 1px solid rgb(0, 0, 0);
+  width: 300px;
+  height: 400px;
+}
+
+#contact {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 50px;
+}
+#contact .con1 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 400px;
+  height: 350px;
+  font-size: xx-large;
+  margin-left: 100px;
+}
+#contact .con1 .hh2 {
+  margin-bottom: 100px;
+  font-size: xx-large;
+}
+#contact .con2 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 500px;
+}
+
+#number {
+  margin-left: 500px;
+}
+#number .con3 {
+  margin-left: 400px;
+}
+#number .con4 {
+  border: 1px solid rgb(0, 0, 0);
+  width: 300px;
+  height: 150px;
+}
+#number .con5 {
+  border: 1px solid rgb(0, 0, 0);
+  width: 300px;
+  height: 150px;
+}
+
+.let {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+input {
+  display: none;
+}
+
+.lab {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  #maintext {
+    width: 400px;
+    height: 800px;
+    margin-top: 15px;
+  }
+  #team {
+    display: grid;
+    grid-template-columns: 3fr;
+  }
+  #goods {
+    display: grid;
+    grid-template-columns: 3fr;
+  }
+  #mainbox {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+  #mainbox .box1 {
+    width: 450px;
+  }
+  #product {
+    background-color: rgba(0, 255, 255, 0.285);
+    width: 355px;
+  }
+  #end {
+    background-color: black;
+    width: 350px;
+  }
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #contact .con2 img {
+    width: 400px;
+  }
+  .lab {
+    position: absolute;
+    top: 10%;
+    z-index: 999;
+    display: block;
+  }
+  #navbar {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
