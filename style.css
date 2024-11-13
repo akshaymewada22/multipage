@@ -3,6 +3,12 @@
   padding: 0px;
 }
 
+#navbar {
+  background-color: rgb(165, 42, 42);
+  height: 80px;
+  width: 1250px;
+  position: fixed;
+}
 #navbar nav {
   margin-left: 10px;
   color: coral;
@@ -15,13 +21,14 @@
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   margin-left: 200px;
-  color: black;
+  color: antiquewhite;
 }
 #navbar nav ul li {
   list-style: none;
 }
 #navbar nav ul li a {
   text-decoration: none;
+  color: antiquewhite;
 }
 
 li:hover {
@@ -32,7 +39,6 @@ li:hover {
   background-image: url(03.jpg);
   width: 1250px;
   height: 800px;
-  margin-top: 15px;
 }
 
 h1 {
@@ -77,17 +83,23 @@ h1 {
 #mainbox {
   display: grid;
   grid-template-columns: auto auto;
-  padding-top: 50px;
-  gap: 100px;
+  margin-top: 50px;
+  background-color: rgba(127, 255, 212, 0.525);
 }
 #mainbox .box1 {
-  border: 1px solid rgb(0, 0, 0);
-  width: 800px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 500px;
   height: 350px;
-  background-image: url(13.jpg);
+}
+#mainbox .box1 h3 {
+  margin-top: 100px;
+  font-size: x-large;
+}
+#mainbox .box1 span {
+  color: coral;
+  font-size: 50px;
 }
 #mainbox .box {
-  padding-left: 150px;
   font-weight: 200px;
 }
 
@@ -116,6 +128,17 @@ h1 {
   border: 1px solid rgba(0, 0, 0, 0);
   width: 300px;
   height: 150px;
+}
+
+#costomer {
+  background-color: rgba(127, 255, 212, 0.37);
+  margin-top: 50px;
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 50px;
+}
+#costomer .george {
+  color: coral;
 }
 
 #product {
@@ -154,6 +177,41 @@ h1 {
   border: 1px solid rgb(0, 0, 0);
   width: 300px;
   height: 400px;
+}
+
+#Popular {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 120px;
+  margin-left: 60px;
+}
+#Popular .pro4 {
+  border: 1px solid rgb(0, 0, 0);
+  width: 300px;
+  height: 400px;
+}
+#Popular .pro4 i {
+  color: coral;
+  font-size: 30px;
+}
+#Popular .pro5 {
+  border: 1px solid rgb(0, 0, 0);
+  width: 300px;
+  height: 400px;
+}
+#Popular .pro5 i {
+  color: coral;
+  font-size: 30px;
+}
+#Popular .pro6 {
+  border: 1px solid rgb(0, 0, 0);
+  width: 300px;
+  height: 400px;
+}
+#Popular .pro6 i {
+  color: coral;
+  font-size: 30px;
 }
 
 #contact {

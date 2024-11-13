@@ -4,11 +4,18 @@
 }
 //  ==================================================================header start=====================================================================================
 #navbar{
-     
+       background-color: rgb(165, 42, 42);
+       height: 80px;
+       width: 1250px;
+       position:fixed;
+    //    margin-left: 600px;
+       
+
+
     nav{
         margin-left: 10px;
         color: coral;
-        position: fixed;
+    
         
         p{
             font-size: x-large;
@@ -19,12 +26,14 @@
             display: grid;
             grid-template-columns: auto auto auto auto auto auto;
             margin-left: 200px;
-            color: black;
+            color: antiquewhite;
             
             li{
                 list-style: none;
+            
                 a{
                     text-decoration: none;
+                    color: antiquewhite;
                 }
             }
         }
@@ -40,7 +49,7 @@ li:hover{
     background-image: url(03.jpg);
     width: 1250px;
     height: 800px;
-    margin-top: 15px;
+    
 
     }
     h1{
@@ -86,18 +95,27 @@ li:hover{
     
 display: grid;
 grid-template-columns: auto auto;
-padding-top: 50px;
-gap: 100px;
+margin-top:  50px;
+background-color: rgba(127, 255, 212, 0.525);
     .box1{
-        border: 1px solid rgb(0, 0, 0);
-        width: 800px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        width: 500px;
         height: 350px;
-        background-image: url(13.jpg);
+        h3{
+            margin-top: 100px;
+    font-size: x-large;
+            }
+            span{
+                color: coral;
+                font-size: 50px;
+            }
+        
         
     }
     .box{
+       
         
-    padding-left: 150px;
+    
     font-weight: 200px;
 
     }
@@ -119,6 +137,11 @@ gap: 100px;
     padding-left: 150px;
     font-size: large;
     }
+
+    
+
+
+
     
    
 
@@ -137,7 +160,23 @@ gap: 100px;
             
         
             }
-}//=========================================== story end =======================================
+}
+
+#costomer{
+background-color: rgba(127, 255, 212, 0.37);
+    margin-top: 50px;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 50px;
+    .george{
+    color: coral;
+
+
+
+    }
+    
+}
+//=========================================== story end =======================================
 //  ===========================================product start form here =========================================================
 
 #product{
@@ -180,6 +219,42 @@ gap: 100px;
         width: 300px;
         height: 400px;
     }
+}
+    #Popular{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-bottom: 120px;
+        margin-left: 60px;
+    .pro4{
+        border: 1px solid rgb(0, 0, 0);
+        width: 300px;
+        height: 400px;
+        i{
+            color: coral;
+            font-size: 30px;
+        }
+}
+.pro5{
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 400px;
+
+    i{
+        color: coral;
+        font-size: 30px;
+    }
+}
+.pro6{
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 400px;
+
+    i{
+        color: coral;
+        font-size: 30px;
+    }
+}
 }
 //========================================================== product end ====================================================================================
 
@@ -308,9 +383,7 @@ display: grid;
 
     z-index: 999;
     display: block;
- }
- #bar:checked~ 
- {
+ 
 
  }
 #navbar{
