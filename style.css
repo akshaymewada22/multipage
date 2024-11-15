@@ -74,9 +74,12 @@ h1 {
   margin-top: 150px;
 }
 .div1 h2 {
-  color: aqua;
+  color: whitesmoke;
 }
 .div1 h2:hover {
+  color: coral;
+}
+.div1 i:hover {
   color: coral;
 }
 
@@ -218,7 +221,7 @@ h1 {
   padding-top: 100px;
   display: grid;
   grid-template-columns: auto auto;
-  margin-top: 50px;
+  background-color: rgba(127, 255, 212, 0.386);
 }
 #contact .con1 {
   border: 1px solid rgba(0, 0, 0, 0);
@@ -226,6 +229,7 @@ h1 {
   height: 350px;
   font-size: xx-large;
   margin-left: 100px;
+  text-align: center;
 }
 #contact .con1 .hh2 {
   margin-bottom: 100px;
@@ -237,20 +241,26 @@ h1 {
 }
 
 #number {
-  margin-left: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  background-color: antiquewhite;
 }
-#number .con3 {
-  margin-left: 400px;
+#number .con3 button {
+  width: 200px;
+}
+#number .con3 button:hover {
+  background-color: coral;
+  color: azure;
 }
 #number .con4 {
-  border: 1px solid rgb(0, 0, 0);
-  width: 300px;
-  height: 150px;
+  margin-left: 30px;
 }
-#number .con5 {
-  border: 1px solid rgb(0, 0, 0);
-  width: 300px;
-  height: 150px;
+#number h4:hover {
+  color: coral;
+}
+#number i:hover {
+  color: coral;
 }
 
 .let {
@@ -258,7 +268,7 @@ h1 {
   padding-bottom: 30px;
 }
 
-input {
+#bars {
   display: none;
 }
 
@@ -284,8 +294,12 @@ input {
     display: grid;
     grid-template-columns: 2fr;
   }
+  #mainbox .box {
+    display: none;
+  }
   #mainbox .box1 {
-    width: 450px;
+    width: 400px;
+    background-color: white;
   }
   #product {
     background-color: rgba(0, 255, 255, 0.285);
@@ -298,17 +312,49 @@ input {
   #contact {
     display: grid;
     grid-template-columns: 1fr;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 0px;
   }
-  #contact .con2 img {
-    width: 400px;
+  #contact .con1 {
+    background-color: none;
   }
-  .lab {
-    position: absolute;
-    top: 10%;
-    z-index: 999;
-    display: block;
+  #contact .con1 .hh1 {
+    padding-left: 200px;
+  }
+  #contact .con1 .hh1 .hh2 {
+    margin-bottom: 0px;
+  }
+  #contact .con1 .hh1 .hh2 {
+    margin-right: 200px;
+  }
+  #contact .con1 .con2 img {
+    width: 300px;
+  }
+  #Popular {
+    display: grid;
+    grid-template-columns: 3fr;
+  }
+  #number {
+    margin-right: 100%;
   }
   #navbar {
     display: none;
+  }
+  #navbar nav ul {
+    display: block;
+  }
+  #bar {
+    display: block;
+  }
+  .lab {
+    position: absolute;
+    z-index: 999;
+    display: block;
+  }
+  #bars:checked ~ #navbar nav ul {
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
