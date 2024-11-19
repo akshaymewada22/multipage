@@ -420,20 +420,23 @@ display: grid;
     margin-right: 100%;
 }
 #navbar {
-    display: none;
+    // display: none;
+    width: 100px;
+    background-color: rgba(255, 127, 80, 0);
 }
 
 #navbar nav ul{
-    display:block;
+    display:none;
   }
   #bar{
-    display: block;
+    display:none;
   }
 
   .lab{
      position: absolute;
     //   top: 10%;
     // right: 5%;
+
      z-index: 999;
      display: block;
   }
@@ -443,8 +446,10 @@ display: grid;
     display: block;
     position: absolute;
     top: 100px;
-    right: 60px;
+    left: 50px;
   
+  
+
   }
 
 }
